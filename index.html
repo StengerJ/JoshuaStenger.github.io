@@ -43,7 +43,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Joshua Stenger</h1>
-        <p class="section__text__p2">Student</p>
+        <p class="section__text__p2">CS Student & Software Engineer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -87,7 +87,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2 Internships <br />Information Technology <br /> Software Engineer</p>
+              <p>Software Engineer Intern @ U.S. Steel <br />IT Intern @ PennDOT District 12</p>
             </div>
             <div class="details-container">
               <img
@@ -102,10 +102,11 @@
           </div>
           <div class="text-container">
             <p>
-              I'm currently a student at Duquesne University studying Computer Science.
-              My goal throughout my time at Duquesne is to improve my knowledge of Backend Development.
-              After college, I hope to obtain a job pursuing my passion to develop widely used software
-              that positively impacts the world and solves complicated problems in users daily lives.
+              I'm a senior at Duquesne University studying Computer Science, based in Pittsburgh, PA.
+              I'm focused on backend development, machine learning, and robotics, and I build projects
+              ranging from full-stack web apps to reinforcement learning research and self-driving car
+              systems. After college, I hope to pursue a career building software that positively impacts
+              the world and solves complicated problems in users' daily lives.
             </p>
           </div>
         </div>
@@ -191,6 +192,28 @@
                   <p>Proficient</p>
                 </div>
               </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Object-Oriented Programming</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
             </div>
           </div>
           <div class="details-container">
@@ -255,76 +278,70 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
-        <div class="about-containers">
+        <div class="about-containers project-grid">
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Check back soon!</h2>
+            <h2 class="experience-sub-title project-title">MonIT</h2>
+            <p class="project-desc">Enterprise server monitoring software with a client/server architecture — clients run on enterprise servers and report to a central aggregation hub.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/StengerJ/MonIT'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Check back soon!</h2>
+            <h2 class="experience-sub-title project-title">PGH-Pizza</h2>
+            <p class="project-desc">Pizza ratings and blog site for Pittsburgh spots — AngularJS frontend, Java Spring Boot backend, Postgres database, and an Nginx reverse proxy, all containerized with Docker. Live at pghpizza.org.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/StengerJ/Pgh-Pizza'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://pghpizza.org'"
               >
-                Live Demo
+                Live Site
               </button>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Check back soon!</h2>
+            <h2 class="experience-sub-title project-title">GridFinder</h2>
+            <p class="project-desc">Fork of the GridWorld environment, updated to Python 3.13+, comparing a deterministic A* search (Manhattan heuristic) against a PyTorch CNN actor-critic trained with Proximal Policy Optimization.</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/StengerJ'"
+                onclick="location.href='https://github.com/StengerJ/GridFinder'"
               >
                 Github
               </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">EQ-Database</h2>
+            <p class="project-desc">Database management system that lets users create a local database on their computer and interact with it through a GUI.</p>
+            <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/StengerJ'"
+                onclick="location.href='https://github.com/StengerJ/EQ-Database'"
               >
-                Live Demo
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">SelfdrivingCar2026</h2>
+            <p class="project-desc">ACS Quanser QCar2 self-driving car project exploring autonomous navigation and control.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/StengerJ/SelfdrivingCar2026'"
+              >
+                Github
               </button>
             </div>
           </div>
